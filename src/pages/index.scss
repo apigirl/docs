@@ -88,6 +88,10 @@ $card-gutter: 40px;
   color: $seafoam;
 }
 
+.callout--ads .home-callout__badge {
+  color: $seafoam;
+}
+
 .callout--development .home-callout__badge {
   color: $mantis;
 }
@@ -126,7 +130,6 @@ $card-gutter: 40px;
 
 .row--home-cards {
   grid-column-gap: $card-gutter;
-
   @media (max-width: $width-mobile) {
     grid-column-gap: 2%;
   }

@@ -27,6 +27,7 @@ $width-large: 1200px;
   display: grid;
   grid-template-columns: repeat($grid-columns, 1fr);
   grid-column-gap: $grid-gutter;
+  grid-row-gap: $grid-gutter;
 
   // span the full width of the grid if a column class is not assigned
   > :not([class*='col-']) {
